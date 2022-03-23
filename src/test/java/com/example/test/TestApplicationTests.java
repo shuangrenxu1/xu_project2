@@ -19,6 +19,10 @@ class TestApplicationTests {
     public void contextLoads() {
         UserBean userBean = userService.loginIn("你好","123456");
         System.out.println("该用户ID为：");
+        if(userBean!=null){
+
+        }
+
         System.out.println(userBean.getId());
     }
 
